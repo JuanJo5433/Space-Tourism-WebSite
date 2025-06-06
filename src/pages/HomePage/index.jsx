@@ -42,7 +42,7 @@ const HeroText = () => (
 );
 
 const ExploreButton = () => (
-    <div
+    <a href='/destination'
         className="order-1 xl:order-2 group relative flex justify-center items-center
         w-[144px] h-[144px] md:w-[272px] md:h-[272px] cursor-pointer"
     >
@@ -57,7 +57,7 @@ const ExploreButton = () => (
                 EXPLORE
             </p>
         </div>
-    </div>
+    </a>
 );
 
 export default HomePage;
