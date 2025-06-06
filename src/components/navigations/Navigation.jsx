@@ -11,7 +11,7 @@ const options = [
     label: "HOME"     // Display name
   },
   {
-    href: "#",        // Placeholder path for Destination
+    href: "/destination",        // Placeholder path for Destination
     number: "01",
     label: "DESTINATION"
   },

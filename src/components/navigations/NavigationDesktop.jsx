@@ -42,7 +42,7 @@ const NavigationDesktop = ({ optionsNavigate }) => {
                   `}
                 >
                   {/* Navigation link with number and label */}
-                  <a className="flex text-preset-6 text-white">
+                  <a className="flex text-preset-6 text-white" href={option.href}>
                     <p className="mr-2 font-bold">{option.number}</p>
                     {option.label}
                   </a>
