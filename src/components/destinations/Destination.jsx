@@ -20,23 +20,24 @@ const Destination = ({
   const isSelectedOption = (option) => option.toUpperCase() === name;
 
   const OptionItem = ({ option }) => (
-    <li
+    <motion.li
+      layout
       onClick={() => setSelectOption(option)}
-      className={`cursor-pointer h-10 border-b-4 transition-all duration-200 ${
+      className={`cursor-pointer h-10 border-b-4 transition-colors duration-300  z-10 ${
         isSelectedOption(option)
           ? 'border-white text-white'
           : 'border-transparent text-[var(--blue-light)] hover:border-[var(--white)]/50'
       }`}
     >
       {option.toUpperCase()}
-    </li>
+    </motion.li>
   );
 
   return (
     <main className="flex items-center mt-20 md:mt-10 text-[var(--white)] md:mx-15">
       <div className="w-full lg:flex">
         {/* Sección izquierda */}
-        <section className="lg:w-1/2">
+        <section className="lg:w-1/2 h-[300px] md:h-auto">
           <header className="flex justify-center md:justify-start text-[16px] md:text-[20px]">
             <p className="text-preset-5 text-[var(--white)]/25 font-bold">01</p>
             <h3 className="text-preset-5 ml-5">PICK YOUR DESTINATION</h3>
@@ -49,7 +50,7 @@ const Destination = ({
                 src={urlImg}
                 alt={name}
                 {...fadeOnly}
-                className="absolute w-38 h-38 md:w-[457px] md:h-[457px] lg:w-[480px] lg:h-[480px] object-contain"
+                className="absolute w-[150px] h-[150px] md:w-[457px] md:h-[457px] lg:w-[480px] lg:h-[480px] object-contain"
               />
             </AnimatePresence>
           </div>
@@ -60,7 +61,7 @@ const Destination = ({
           <nav className="flex justify-center mb-5 md:mt-24 lg:justify-start md:mx-16">
             <ul className="flex gap-x-8 text-preset-8 text-[14px] md:text-[16px]">
               {options.map((option) => (
-                <OptionItem key={option} option={option} />
+                <OptionItem key={option} option={option}  />
               ))}
             </ul>
           </nav>

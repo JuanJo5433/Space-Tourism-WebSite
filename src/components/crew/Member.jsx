@@ -69,7 +69,7 @@ const Member = ({ urlImg, rol, name, description, setSelectOption, options }) =>
                                     <button
                                         onClick={() => setSelectOption(option)}
                                         className={`rounded-full transition-colors duration-300 cursor-pointer
-                      w-[10px] h-[10px] xl:w-[15px] xl:h-[15px]
+                      w-[10px] h-[10px] xl:w-[15px] xl:h-[15px] 
                       ${name.toLowerCase() === option.toLowerCase()
                                                 ? 'bg-[var(--white)]'
                                                 : 'bg-[#979797]'}`}
