@@ -16,7 +16,7 @@ const options = [
     label: "DESTINATION"
   },
   {
-    href: "#",        // Placeholder path for Crew
+    href: "/crew",        // Placeholder path for Crew
     number: "02",
     label: "CREW"
   },

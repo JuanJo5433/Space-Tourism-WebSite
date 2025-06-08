@@ -4,6 +4,7 @@ import { AnimatePresence } from 'framer-motion';
 import HomePage from './pages/HomePage';
 import DestinationPage from './pages/DestinationPage';
 import PageTransition from './components/PageTransition';
+import CrewPage from './pages/CrewPage';
 
 function App() {
   const location = useLocation();
@@ -25,6 +26,14 @@ function App() {
             element={
               <PageTransition>
                 <DestinationPage />
+              </PageTransition>
+            }
+          />
+          <Route
+            path="/crew"
+            element={
+              <PageTransition>
+                <CrewPage />
               </PageTransition>
             }
           />
