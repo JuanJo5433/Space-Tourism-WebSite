@@ -21,7 +21,7 @@ const options = [
     label: "CREW"
   },
   {
-    href: "#",        // Placeholder path for Technology
+    href: "technology",        // Placeholder path for Technology
     number: "03",
     label: "TECHNOLOGY"
   },

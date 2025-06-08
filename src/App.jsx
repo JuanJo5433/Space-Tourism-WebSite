@@ -5,6 +5,7 @@ import HomePage from './pages/HomePage';
 import DestinationPage from './pages/DestinationPage';
 import PageTransition from './components/PageTransition';
 import CrewPage from './pages/CrewPage';
+import TechnologyPage from './pages/TechnologyPage';
 
 function App() {
   const location = useLocation();
@@ -34,6 +35,14 @@ function App() {
             element={
               <PageTransition>
                 <CrewPage />
+              </PageTransition>
+            }
+          />
+          <Route
+            path="/technology"
+            element={
+              <PageTransition>
+                <TechnologyPage />
               </PageTransition>
             }
           />
