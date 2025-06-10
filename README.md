@@ -27,10 +27,10 @@ Users should be able to:
 
 ### Screenshot
 
-![Home Sectiion](/screenshots/home.png)
-![Destination Sectiion](/screenshots/destination.png)
-![Crew Sectiion](/screenshots/crew.png)
-![Technology Sectiion](/screenshots/technology.png)
+![Home Sectiion](./public/screenshots/home.png)
+![Destination Sectiion](./public/screenshots/destination.png)
+![Crew Sectiion](./public/screenshots/crew.png)
+![Technology Sectiion](./public/screenshots/technology.png)
 
 
 ### Links
