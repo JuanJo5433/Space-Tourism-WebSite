@@ -11,17 +11,17 @@ const options = [
     label: "HOME"     // Display name
   },
   {
-    href: "#",        // Placeholder path for Destination
+    href: "/destination",        // Placeholder path for Destination
     number: "01",
     label: "DESTINATION"
   },
   {
-    href: "#",        // Placeholder path for Crew
+    href: "/crew",        // Placeholder path for Crew
     number: "02",
     label: "CREW"
   },
   {
-    href: "#",        // Placeholder path for Technology
+    href: "technology",        // Placeholder path for Technology
     number: "03",
     label: "TECHNOLOGY"
   },

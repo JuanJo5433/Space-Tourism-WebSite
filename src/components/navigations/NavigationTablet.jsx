@@ -38,7 +38,7 @@ const NavigationTablet = ({ optionsNavigate }) => {
                   `}
                 >
                   {/* Navigation link content */}
-                  <a className='flex text-preset-6 text-white'>
+                  <a className='flex text-preset-6 text-white'  href={option.href}>
                     <p className='mr-2 font-bold'>{option.number}</p>
                     {option.label}
                   </a>
